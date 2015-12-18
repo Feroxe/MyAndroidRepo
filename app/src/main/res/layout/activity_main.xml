@@ -15,13 +15,14 @@
         android:text="Hello World!"
         android:id="@+id/textView2" />
 
-    <TextView
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Hey There "
-        android:id="@+id/textView"
+        android:id="@+id/imageButton"
         android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="37dp" />
+        android:layout_marginTop="138dp"
+        android:src="@drawable/img"
+        android:background="@android:color/transparent"/>
+
 </RelativeLayout>
